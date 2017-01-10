@@ -2,7 +2,7 @@
   "name": "playcanvas",
   "version": "0.206.0-dev",
   "description": "JavaScript game engine built on WebGL and WebVR. https://playcanvas.com/",
-  "main": "build/output/playcanvas-latest.min.js",
+  "main": "build/output/ammo-playcanvas.js",
   "directories": {
     "example": "examples",
     "test": "tests"
@@ -28,6 +28,7 @@
     "fs-extra": "^1.0.0",
     "google-closure-compiler": "^20161201.0.0",
     "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
     "gulp-shell": "^0.5.2",
     "preprocessor": "^1.4.0"
   },
