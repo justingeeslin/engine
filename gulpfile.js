@@ -17,3 +17,10 @@ gulp.task('js', function() {
   .pipe(concat('ammo-playcanvas.js'))
 	.pipe(gulp.dest('build/output'))
 });
+
+gulp.task('watch', function() {
+  gulp.watch('src/**/*.js', ['build']);
+  gulp.watch('build/output/playcanvas-latest.js', ['js']);
+})
+
+gulp.task('default', ['watch'])
