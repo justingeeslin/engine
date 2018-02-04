@@ -33,6 +33,6 @@
     "preprocessor": "^1.4.0"
   },
   "dependencies": {
-    "ammo.js": "https://github.com/kripken/ammo.js"
+    "ammo.js": "https://github.com/playcanvas/ammo.js"
   }
 }
